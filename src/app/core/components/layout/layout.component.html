@@ -1,0 +1,50 @@
+<div class="example-container" [class.example-is-mobile]="isMobile()">
+
+  <mat-toolbar class="example-toolbar">
+    <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+    <h1 class="example-app-name">Responsive App</h1>
+    <span class="example-spacer"></span>
+
+    <section>
+      <div class="example-button-row">
+        <a mat-raised-button href="https://www.google.com/" target="_blank">Home</a>
+        <a mat-raised-button href="https://www.google.com/" target="_blank">Cuidadores</a>
+        <a mat-raised-button href="https://www.google.com/" target="_blank">Familiares</a>
+        <a mat-raised-button href="https://www.google.com/" target="_blank">Contáctanos</a>
+        <a mat-raised-button href="https://www.google.com/" target="_blank">Nosotros</a>
+        <a mat-raised-button href="https://www.google.com/" target="_blank">Ayuda</a>
+      </div>
+    </section>
+
+    <span class="example-spacer"></span>
+
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+
+
+
+
+
+
+  <mat-sidenav-container class="example-sidenav-container"
+                         [style.marginTop.px]="isMobile() ? 56 : 0">
+    <mat-sidenav #snav [mode]="isMobile() ? 'over' : 'side'"
+                 [fixedInViewport]="isMobile()" fixedTopGap="56">
+      <mat-nav-list>
+        @for (nav of fillerNav; track nav) {
+          <a mat-list-item>{{nav}}</a>
+        }
+      </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      @for (content of fillerContent; track content) {
+        <p>{{content}}</p>
+      }
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+
+
