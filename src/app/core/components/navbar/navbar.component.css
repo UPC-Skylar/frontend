@@ -1,0 +1,36 @@
+/* navbar.component.css */
+.navbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar-app-name {
+  font-size: 1.8rem;
+  color: #3d44dd;
+}
+
+.navbar-spacer {
+  flex: 1 1 auto;
+}
+
+.navbar-button-row {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-button-row .mat-raised-button {
+  font-size: 1rem;
+  padding: 8px 15px;
+}
+
+.navbar-button-row a {
+  text-decoration: none;
+  color: #3d44dd;
+}
+
+.mat-button-toggle-group {
+  margin-left: 20px;
+}

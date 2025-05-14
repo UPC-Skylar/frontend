@@ -1,36 +1,38 @@
-import {Component, OnDestroy, inject, signal} from '@angular/core';
-import {MediaMatcher} from '@angular/cdk/layout';
-import {MatListModule} from '@angular/material/list';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatDividerModule} from '@angular/material/divider';
+import {Component, inject, OnDestroy, signal} from '@angular/core';
+import {TranslatePipe, TranslateService} from '@ngx-translate/core';
+import {MatButtonToggle, MatButtonToggleGroup} from '@angular/material/button-toggle';
+import {MatIcon} from '@angular/material/icon';
+import {MatToolbar} from '@angular/material/toolbar';
+import {MatAnchor, MatIconButton} from '@angular/material/button';
 import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
+import {MatListItem, MatNavList} from '@angular/material/list';
+import {MatSidenav, MatSidenavContainer, MatSidenavContent} from '@angular/material/sidenav';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
-
-import {TranslateModule} from "@ngx-translate/core";
-import {TranslateService} from "@ngx-translate/core";
+import {MediaMatcher} from '@angular/cdk/layout';
 
 @Component({
-  selector: 'app-layout',
+  selector: 'app-navbar',
   imports: [
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    MatSidenavModule,
-    MatListModule,
-    MatDividerModule,
-    RouterOutlet,
+    MatButtonToggle,
+    TranslatePipe,
+    MatIcon,
+    MatToolbar,
+    MatButtonToggleGroup,
+    MatIconButton,
     RouterLink,
     RouterLinkActive,
+    MatAnchor,
+    MatListItem,
+    MatNavList,
+    MatSidenav,
+    MatSidenavContainer,
     MatButtonToggleModule,
-    TranslateModule,
+    MatSidenavContent,
   ],
-  templateUrl: './layout.component.html',
-  styleUrl: './layout.component.css'
+  templateUrl: './navbar.component.html',
+  styleUrl: './navbar.component.css'
 })
-export class LayoutComponent implements OnDestroy {
+export class NavbarComponent implements OnDestroy {
   protected readonly fillerNav = Array.from({length: 50}, (_, i) => `Nav Item ${i + 1}`);
 
   protected readonly fillerContent = Array.from(
@@ -42,11 +44,11 @@ export class LayoutComponent implements OnDestroy {
        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
   );
-
   protected readonly isMobile = signal(true);
 
   private readonly _mobileQuery: MediaQueryList;
   private readonly _mobileQueryListener: () => void;
+  snav: any;
 
   constructor(private translate: TranslateService) {
     const media = inject(MediaMatcher);
@@ -57,8 +59,7 @@ export class LayoutComponent implements OnDestroy {
     this._mobileQuery.addEventListener('change', this._mobileQueryListener);
 
     this.translate.addLangs(['es', 'en']);
-    this.translate.setDefaultLang('en');
-    this.translate.use('en');
+    this.translate.setDefaultLang('es');
   }
 
   ngOnDestroy(): void {
@@ -73,3 +74,4 @@ export class LayoutComponent implements OnDestroy {
     this.translate.use(language);
   }
 }
+

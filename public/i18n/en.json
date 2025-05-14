@@ -5,6 +5,13 @@
   "contact": "Contact",
   "about": "About us",
   "support": "Support",
+  "home.areYouACaregiver": "Are you a caregiver?",
+  "home.startNow": "Start now",
+  "home.h1": "We care for their life, their story, and their home, with a service as unique as they are.",
+  "home.description": "We are the trusted choice for hundreds of families seeking the best in-home care for their loved ones.",
+  "caregivers.h1": "Caregivers",
+  "caregivers.description": "description",
+  "caregivers.startNow": "Start now",
   "icu": {
     "pluralization": "n",
     "select": "{gender}"

@@ -1,10 +1,14 @@
 {
-  "home": "Home",
+  "home": "Inicio",
   "caregivers": "Cuidadores",
   "family": "Familia",
   "contact": "Contáctanos",
   "about": "Nosotros",
   "support": "Ayuda",
+  "home.areYouACaregiver": "¿Eres un cuidador?",
+  "home.startNow": "Empieza ahora",
+  "home.h1": "Cuidamos su vida, su historia y su hogar, con un servicio tan único como ellos",
+  "home.description": "Somos la opción de confianza para cientos de familias que buscan el mejor cuidado a domicio para sus seres queridos",
   "icu": {
     "pluralization": "n",
     "select": "{gender}"
