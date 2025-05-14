@@ -80,6 +80,14 @@
   width: 100%;
   max-width: 900px;
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonial-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .testimonials h2 {
@@ -103,6 +111,7 @@
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
 }
 
 .testimonial-card img {
@@ -143,5 +152,9 @@
   .testimonial-cards {
     flex-direction: column;
     align-items: center;
+  }
+
+  .testimonial-card {
+    width: 80%;
   }
 }

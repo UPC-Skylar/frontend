@@ -1,7 +1,7 @@
 {
   "home": "Inicio",
   "caregiver": "Cuidadores",
-  "family": "Familia",
+  "family-section": "Familia",
   "contact": "Contáctanos",
   "about": "Nosotros",
   "support": "Ayuda",
@@ -18,14 +18,34 @@
     "benefit2": "Recibe acompañamiento en todo momento, con atención personalizada para resolver tus dudas y ayudarte a mejorar tu experiencia.",
     "benefit3": "Disfruta de múltiples funcionalidades que mejoran tu servicio y facilitan tu trabajo, sin pagar por el servicio. ¡Solo una comisión baja del 10% por cada servicio!",
     "testimonialsTitle": "Lo que dicen nuestros cuidadores",
-    "caregiver1": {
-      "name": "Ana María López",
-      "description": "Soy cuidadora profesional con más de 5 años de experiencia. Me encanta ver la felicidad de las personas que cuido y me siento parte importante de sus vidas."
-    },
-    "caregiver2": {
-      "name": "Carlos Pérez",
-      "description": "Con años de experiencia, he ayudado a muchas personas mayores a mejorar su calidad de vida, brindándoles compañía y cuidados especializados."
-    }
+    "testimonial1Name": "Ana María López",
+    "testimonial1Description": "Como cuidadora profesional con más de 5 años de experiencia, CareMe ha sido una plataforma increíblemente valiosa. Desde que me uní, he podido encontrar clientes mucho más rápido de lo que esperaba. La plataforma facilita enormemente la organización de mis actividades y la comunicación con las familias. Me siento muy contenta de ser parte del equipo de CareMe y de poder marcar una diferencia positiva en la vida de mis pacientes.",
+    "testimonial2Name": "Carlos Pérez",
+    "testimonial2Description": "Con años de experiencia dedicados al cuidado de personas mayores, CareMe ha revolucionado mi manera de trabajar. Gracias a esta plataforma, he encontrado clientes de forma rápida y constante. Las herramientas que ofrece CareMe simplifican enormemente mi día a día, permitiéndome enfocarme en brindar la mejor atención posible. Estoy muy satisfecho de ser parte de la comunidad de profesionales de CareMe."
+  },
+  "family": {
+    "h1": "Elige a CareMe para cuidar a tus seres queridos",
+    "description": "CareMe te ofrece la oportunidad de encontrar el mejor cuidado para tus familiares, con cuidadores verificados y profesionales. Únete a nuestra plataforma y brinda el mejor cuidado a tu familia.",
+    "startNow": "¡Empieza ahora!",
+    "whyChooseCareMeTitle": "¿Por qué elegir CareMe?",
+    "benefit1Title": "Encuentra cuidadores rápidos y sencillos",
+    "benefit1": "Accede a una red de cuidadores verificados y encuentra rápidamente la ayuda que tu familia necesita.",
+    "benefit2Title": "Acompañamiento y soporte constante",
+    "benefit2": "Nuestro equipo está siempre disponible para garantizarte que tu experiencia con CareMe sea la mejor.",
+    "benefit3Title": "Comisiones bajas y servicio gratuito",
+    "benefit3": "CareMe es gratis y solo cobra una comisión baja del 10% por servicio.",
+    "securityTitle": "Tu seguridad, nuestro compromiso",
+    "securityFeature1Title": "Botón de emergencia",
+    "securityFeature1": "Activa el botón de emergencia para compartir tu ubicación en tiempo real y contactar a emergencias.",
+    "securityFeature2Title": "Cuidado geolocalizado",
+    "securityFeature2": "Cada servicio es geolocalizado, lo que te permite saber dónde está el cuidador en todo momento.",
+    "securityFeature3Title": "Estamos aquí para ti",
+    "securityFeature3": "Nuestro equipo de atención al cliente está disponible 24/7 para cualquier consulta o emergencia.",
+    "testimonialsTitle": "Testimonios de nuestros usuarios",
+    "testimonial1Name": "Laura Gómez",
+    "testimonial1Description": "Gracias a CareMe, pude encontrar al mejor cuidador para mi madre. La experiencia fue maravillosa y confiable.",
+    "testimonial2Name": "Carlos López",
+    "testimonial2Description": "Me encanta la plataforma, los cuidadores son muy profesionales y siempre están disponibles para cualquier duda."
   },
   "icu": {
     "pluralization": "n",

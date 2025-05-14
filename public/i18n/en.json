@@ -1,7 +1,7 @@
 {
   "home": "Home",
   "caregiver": "Caregivers",
-  "family": "Family",
+  "family-section": "Family",
   "contact": "Contact",
   "about": "About us",
   "support": "Support",
@@ -21,14 +21,34 @@
     "benefit2": "Receive support at all times, with personalized attention to resolve any doubts and help you improve your experience.",
     "benefit3": "Enjoy multiple features that improve your service and make your work easier, with no charges for the service. Only a low 10% commission per service!",
     "testimonialsTitle": "What our caregivers are saying",
-    "caregiver1": {
-      "name": "Ana María López",
-      "description": "I am a professional caregiver with over 5 years of experience. I love seeing the happiness of the people I care for and I feel like an important part of their lives."
-    },
-    "caregiver2": {
-      "name": "Carlos Pérez",
-      "description": "With years of experience, I have helped many elderly people improve their quality of life, providing them with companionship and specialized care."
-    }
+    "testimonial1Name": "Ana María López",
+    "testimonial1Description": "As a professional caregiver with over 5 years of experience, CareMe has been an incredibly valuable platform. Since joining, I've been able to find clients much faster than I anticipated. The platform greatly facilitates the organization of my activities and communication with families. I am very happy to be part of the CareMe team and to be able to make a positive difference in the lives of my patients.",
+    "testimonial2Name": "Carlos Pérez",
+    "testimonial2Description": "With years of experience dedicated to caring for the elderly, CareMe has revolutionized the way I work. Thanks to this platform, I have found clients quickly and consistently. The tools offered by CareMe greatly simplify my daily routine, allowing me to focus on providing the best possible care. I am very satisfied to be part of the CareMe professional community."
+  },
+  "family": {
+    "h1": "Choose CareMe to take care of your loved ones",
+    "description": "CareMe gives you the opportunity to find the best care for your family members, with verified and professional caregivers. Join our platform and give your family the best care.",
+    "startNow": "Start now!",
+    "whyChooseCareMeTitle": "Why choose CareMe?",
+    "benefit1Title": "Find caregivers quickly and easily",
+    "benefit1": "Access a network of verified caregivers and quickly find the help your family needs.",
+    "benefit2Title": "Continuous support and assistance",
+    "benefit2": "Our team is always available to ensure that your experience with CareMe is the best.",
+    "benefit3Title": "Low commissions and free service",
+    "benefit3": "CareMe is free, and only charges a low 10% commission per service.",
+    "securityTitle": "Your safety, our commitment",
+    "securityFeature1Title": "Emergency button",
+    "securityFeature1": "Activate the emergency button to share your location in real-time and contact emergency services.",
+    "securityFeature2Title": "Geolocated care",
+    "securityFeature2": "Each service is geolocated, allowing you to know where the caregiver is at all times.",
+    "securityFeature3Title": "We are here for you",
+    "securityFeature3": "Our customer service team is available 24/7 for any inquiries or emergencies.",
+    "testimonialsTitle": "What our users are saying",
+    "testimonial1Name": "Laura Gómez",
+    "testimonial1Description": "Thanks to CareMe, I was able to find the best caregiver for my mother. The experience was wonderful and reliable.",
+    "testimonial2Name": "Carlos López",
+    "testimonial2Description": "I love the platform, the caregivers are very professional and always available for any questions."
   },
   "icu": {
     "pluralization": "n",

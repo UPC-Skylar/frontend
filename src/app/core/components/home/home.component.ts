@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
-import {MatAnchor, MatButton} from '@angular/material/button';
-import {NavbarComponent} from '../navbar/navbar.component';
+import {MatButton} from '@angular/material/button';
 import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-home',
   imports: [
-    MatAnchor,
     TranslatePipe,
-    NavbarComponent,
     RouterLink,
     MatButton
   ],
