@@ -1,1 +1,27 @@
-<p>about works!</p>
+<div class="about-container">
+  <div class="about-content">
+    <div class="about-header">
+      <h1>{{ 'about.h1' | translate }}</h1>
+      <p>{{ 'about.description' | translate }}</p>
+    </div>
+
+    <div class="about-info">
+      <div class="about-text">
+        <h2>{{ 'about.ourMission' | translate }}</h2>
+        <p>{{ 'about.mission' | translate }}</p>
+
+        <h2>{{ 'about.ourVision' | translate }}</h2>
+        <p>{{ 'about.vision' | translate }}</p>
+
+        <h2>{{ 'about.whyCareMe' | translate }}</h2>
+        <p>{{ 'about.whyCareMeDescription' | translate }}</p>
+
+        <button mat-raised-button color="primary" routerLink="/register">{{ 'about.startNow' | translate }}</button>
+      </div>
+
+      <div class="about-image">
+        <img src="assets/images/careme.png" alt="CareMe Company Image" />
+      </div>
+    </div>
+  </div>
+</div>

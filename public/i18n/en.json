@@ -1,10 +1,10 @@
 {
-  "home": "Home",
-  "caregiver": "Caregivers",
+  "home-section": "Home",
+  "caregivers-section": "Caregivers",
   "family-section": "Family",
   "contact-section": "Contact",
-  "about": "About us",
-  "support": "Support",
+  "about-section": "About us",
+  "support-section": "Support",
   "home.areYouACaregiver": "Are you a caregiver?",
   "home.startNow": "Start now",
   "home.h1": "We care for their life, their story, and their home, with a service as unique as they are.",
@@ -58,6 +58,17 @@
     "email": "Email Address",
     "message": "Message",
     "submit": "Submit"
+  },
+  "about": {
+    "h1": "About Us",
+    "description": "At CareMe, we are a Peruvian company committed to transforming the care of dependent people in Peru. Our mission is to provide families with a reliable, affordable, and high-quality home care service.",
+    "ourMission": "Our Mission",
+    "mission": "To be the leading platform in Peru that connects professional caregivers with families who need specialized care for their loved ones. Our commitment is to improve the quality of life for dependent individuals.",
+    "ourVision": "Our Vision",
+    "vision": "We aim to be the company that defines the future of home care in the country, through innovation, technology, and a human-centered approach that promotes the well-being of the elderly and dependent individuals.",
+    "whyCareMe": "Why Choose CareMe?",
+    "whyCareMeDescription": "CareMe is more than just a platform to find caregivers. We offer a comprehensive solution that makes it easy to find the ideal caregiver, ensuring safety, professionalism, and trust at all times.",
+    "startNow": "Join Now"
   },
   "icu": {
     "pluralization": "n",

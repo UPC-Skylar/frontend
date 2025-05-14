@@ -1,10 +1,10 @@
 {
-  "home": "Inicio",
-  "caregiver": "Cuidadores",
+  "home-section": "Inicio",
+  "caregivers-section": "Cuidadores",
   "family-section": "Familia",
   "contact-section": "Contáctanos",
-  "about": "Nosotros",
-  "support": "Ayuda",
+  "about-section": "Nosotros",
+  "support-section": "Ayuda",
   "home.areYouACaregiver": "¿Eres un cuidador?",
   "home.startNow": "Empieza ahora",
   "home.h1": "Cuidamos su vida, su historia y su hogar, con un servicio tan único como ellos",
@@ -55,6 +55,17 @@
     "email": "Correo electrónico",
     "message": "Mensaje",
     "submit": "Enviar"
+  },
+  "about": {
+    "h1": "Acerca de nosotros",
+    "description": "En CareMe, somos una empresa peruana comprometida con la transformación del cuidado de personas dependientes en el Perú. Nuestra misión es proporcionar a las familias un servicio de cuidado a domicilio confiable, accesible y de alta calidad.",
+    "ourMission": "Nuestra misión",
+    "mission": "Ser la plataforma líder en Perú que conecta cuidadores profesionales con familias que necesitan atención especializada para sus seres queridos. Nuestro compromiso es mejorar la calidad de vida de las personas dependientes.",
+    "ourVision": "Nuestra visión",
+    "vision": "Aspiramos a ser la empresa que defina el futuro del cuidado domiciliario en el país, a través de la innovación, tecnología y un enfoque humano que promueva el bienestar de los adultos mayores y personas dependientes.",
+    "whyCareMe": "¿Por qué elegir CareMe?",
+    "whyCareMeDescription": "CareMe es más que solo una plataforma para encontrar cuidadores. Ofrecemos una solución integral que facilita el proceso de encontrar el cuidador ideal, garantizando seguridad, profesionalismo y confianza en todo momento.",
+    "startNow": "Únete ahora"
   },
   "icu": {
     "pluralization": "n",
