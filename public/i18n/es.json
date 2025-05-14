@@ -67,6 +67,27 @@
     "whyCareMeDescription": "CareMe es más que solo una plataforma para encontrar cuidadores. Ofrecemos una solución integral que facilita el proceso de encontrar el cuidador ideal, garantizando seguridad, profesionalismo y confianza en todo momento.",
     "startNow": "Únete ahora"
   },
+  "support": {
+    "h1": "Soporte",
+    "description": "En CareMe, estamos comprometidos en brindarte el mejor soporte posible. Aquí encontrarás las respuestas a las preguntas más frecuentes y algunos consejos útiles.",
+    "faqTitle": "Preguntas Frecuentes",
+    "tipsTitle": "Consejos adicionales",
+    "tips": "Asegúrate de mantener tu perfil actualizado y comunícate siempre con claridad con tu cuidador o solicitante para evitar confusiones.",
+    "contactUs": "Contáctanos",
+    "faq1": {
+      "question": "¿Cómo me registro en CareMe?",
+      "answer": "Puedes registrarte como solicitante o cuidador a través del formulario de registro en la página de inicio."
+    },
+    "faq2": {
+      "question": "¿Es CareMe gratis?",
+      "answer": "Sí, el uso de la plataforma es gratuito para los cuidadores, pero nosotros cobramos una pequeña comisión por cada servicio completado."
+    },
+    "faq3": {
+      "question": "¿Cómo puedo contactar con soporte?",
+      "answer": "Si tienes algún problema, puedes ponerte en contacto con nuestro soporte a través del formulario de contacto en la sección 'Contáctanos'."
+    }
+  },
+
   "icu": {
     "pluralization": "n",
     "select": "{gender}"

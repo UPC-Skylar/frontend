@@ -70,6 +70,26 @@
     "whyCareMeDescription": "CareMe is more than just a platform to find caregivers. We offer a comprehensive solution that makes it easy to find the ideal caregiver, ensuring safety, professionalism, and trust at all times.",
     "startNow": "Join Now"
   },
+  "support": {
+    "h1": "Support",
+    "description": "At CareMe, we are committed to providing you with the best support. Here you will find answers to frequently asked questions and helpful tips.",
+    "faqTitle": "Frequently Asked Questions",
+    "tipsTitle": "Additional Tips",
+    "tips": "Make sure to keep your profile updated and always communicate clearly with your caregiver or client to avoid confusion.",
+    "contactUs": "Contact Us",
+    "faq1": {
+      "question": "How do I register on CareMe?",
+      "answer": "You can register as a requester or caregiver through the registration form on the homepage."
+    },
+    "faq2": {
+      "question": "Is CareMe free?",
+      "answer": "Yes, the platform is free for caregivers, but we charge a small commission for each completed service."
+    },
+    "faq3": {
+      "question": "How can I contact support?",
+      "answer": "If you have any issues, you can contact our support team through the contact form in the 'Contact Us' section."
+    }
+  },
   "icu": {
     "pluralization": "n",
     "select": "{gender}"
