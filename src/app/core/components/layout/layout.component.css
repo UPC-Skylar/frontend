@@ -103,3 +103,8 @@ section {
   justify-content: center;
   width: 140px;
 }
+
+#login-navbar{
+  color: #ffffff;
+  #background-color: #3d44dd;
+}

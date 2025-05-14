@@ -5,6 +5,7 @@
   "contact-section": "Contact",
   "about-section": "About us",
   "support-section": "Support",
+  "login-section": "Log in",
   "home.areYouACaregiver": "Are you a caregiver?",
   "home.startNow": "Start now",
   "home.h1": "We care for their life, their story, and their home, with a service as unique as they are.",
@@ -89,6 +90,24 @@
       "question": "How can I contact support?",
       "answer": "If you have any issues, you can contact our support team through the contact form in the 'Contact Us' section."
     }
+  },
+  "login": {
+    "loginTitle": "Login",
+    "username": "Username",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "login": "Login",
+    "noAccount": "Don't have an account?",
+    "registerHere": "Register here"
+  },
+  "register": {
+    "registerTitle": "Create an Account",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "register": "Register",
+    "haveAccount": "Already have an account?",
+    "loginHere": "Login here"
   },
   "icu": {
     "pluralization": "n",

@@ -5,6 +5,7 @@ import {FamilyComponent} from './domains/products/components/family/family.compo
 import {ContactComponent} from './core/components/contact/contact.component';
 import {AboutComponent} from './core/components/about/about.component';
 import {SupportComponent} from './core/components/support/support.component';
+import {LoginComponent} from './core/components/login/login.component';
 
 
 export const routes: Routes = [
@@ -14,4 +15,5 @@ export const routes: Routes = [
   {path: 'contact-component', component: ContactComponent},
   {path: 'about-component', component: AboutComponent},
   {path: 'support-component', component: SupportComponent},
+  {path: 'login-component', component: LoginComponent},
 ];

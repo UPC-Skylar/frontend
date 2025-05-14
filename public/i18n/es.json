@@ -5,6 +5,7 @@
   "contact-section": "Contáctanos",
   "about-section": "Nosotros",
   "support-section": "Ayuda",
+  "login-section": "Iniciar sesión",
   "home.areYouACaregiver": "¿Eres un cuidador?",
   "home.startNow": "Empieza ahora",
   "home.h1": "Cuidamos su vida, su historia y su hogar, con un servicio tan único como ellos",
@@ -86,6 +87,24 @@
       "question": "¿Cómo puedo contactar con soporte?",
       "answer": "Si tienes algún problema, puedes ponerte en contacto con nuestro soporte a través del formulario de contacto en la sección 'Contáctanos'."
     }
+  },
+  "login": {
+    "loginTitle": "Inicia Sesión",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "forgotPassword": "Olvidaste la contraseña?",
+    "login": "Acceder",
+    "noAccount": "¿No tienes una cuenta?",
+    "registerHere": "Regístrate aquí"
+  },
+  "register": {
+    "registerTitle": "Crea una Cuenta",
+    "username": "Usuario",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "register": "Regístrate",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "loginHere": "Inicia sesión aquí"
   },
 
   "icu": {
