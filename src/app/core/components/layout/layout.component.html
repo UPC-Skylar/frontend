@@ -7,20 +7,20 @@
 
     <section>
       <div class="example-button-row">
-        <a mat-raised-button href="https://www.google.com/" target="_blank">Home</a>
-        <a mat-raised-button href="https://www.google.com/" target="_blank">Cuidadores</a>
-        <a mat-raised-button href="https://www.google.com/" target="_blank">Familiares</a>
-        <a mat-raised-button href="https://www.google.com/" target="_blank">Contáctanos</a>
-        <a mat-raised-button href="https://www.google.com/" target="_blank">Nosotros</a>
-        <a mat-raised-button href="https://www.google.com/" target="_blank">Ayuda</a>
+        <a mat-raised-button routerLink="/home-component" routerLinkActive="active" ariaCurrentWhenActive="page">{{'home' | translate}}</a>
+        <a mat-raised-button routerLink="/caregivers-component" routerLinkActive="active" ariaCurrentWhenActive="page">{{'caregivers' | translate}}</a>
+        <a mat-raised-button routerLink="/family-component" routerLinkActive="active" ariaCurrentWhenActive="page">{{'family' | translate}}</a>
+        <a mat-raised-button routerLink="/contact-component" routerLinkActive="active" ariaCurrentWhenActive="page">{{'contact' | translate}}</a>
+        <a mat-raised-button routerLink="/about-component" routerLinkActive="active" ariaCurrentWhenActive="page">{{'about' | translate}}</a>
+        <a mat-raised-button routerLink="/support-component" routerLinkActive="active" ariaCurrentWhenActive="page">{{'support' | translate}}</a>
       </div>
     </section>
 
     <span class="example-spacer"></span>
 
     <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-      <mat-button-toggle value="en">EN</mat-button-toggle>
-      <mat-button-toggle value="es">ES</mat-button-toggle>
+      <mat-button-toggle value="en" (click)="setLanguage('en')">EN</mat-button-toggle>
+      <mat-button-toggle value="es" (click)="setLanguage('es')">ES</mat-button-toggle>
     </mat-button-toggle-group>
   </mat-toolbar>
 
@@ -37,9 +37,9 @@
     </mat-sidenav>
 
     <mat-sidenav-content>
-      @for (content of fillerContent; track content) {
-        <p>{{content}}</p>
-      }
+
+      <router-outlet />
+
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>

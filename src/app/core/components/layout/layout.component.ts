@@ -1,5 +1,5 @@
-import {MediaMatcher} from '@angular/cdk/layout';
 import {Component, OnDestroy, inject, signal} from '@angular/core';
+import {MediaMatcher} from '@angular/cdk/layout';
 import {MatListModule} from '@angular/material/list';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
@@ -7,11 +7,26 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
+
 import {TranslateModule} from "@ngx-translate/core";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-layout',
-  imports: [MatToolbarModule, MatButtonModule, MatIconModule, MatSidenavModule, MatListModule, MatDividerModule, MatButtonToggleModule, TranslateModule],
+  imports: [
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatListModule,
+    MatDividerModule,
+    RouterLink,
+    RouterLinkActive,
+    MatButtonToggleModule,
+    TranslateModule,
+    RouterOutlet,
+  ],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })
@@ -33,13 +48,17 @@ export class LayoutComponent implements OnDestroy {
   private readonly _mobileQuery: MediaQueryList;
   private readonly _mobileQueryListener: () => void;
 
-  constructor() {
+  constructor(private translate: TranslateService) {
     const media = inject(MediaMatcher);
 
     this._mobileQuery = media.matchMedia('(max-width: 600px)');
     this.isMobile.set(this._mobileQuery.matches);
     this._mobileQueryListener = () => this.isMobile.set(this._mobileQuery.matches);
     this._mobileQuery.addEventListener('change', this._mobileQueryListener);
+
+    this.translate.addLangs(['es', 'en']);
+    this.translate.setDefaultLang('en');
+    this.translate.use('en');
   }
 
   ngOnDestroy(): void {
@@ -49,4 +68,8 @@ export class LayoutComponent implements OnDestroy {
   protected readonly shouldRun = /(^|.)(stackblitz|webcontainer).(io|com)$/.test(
     window.location.host,
   );
+
+  setLanguage(language: string): void {
+    this.translate.use(language);
+  }
 }
