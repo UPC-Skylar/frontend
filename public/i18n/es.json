@@ -1,6 +1,6 @@
 {
   "home": "Inicio",
-  "caregivers": "Cuidadores",
+  "caregiver": "Cuidadores",
   "family": "Familia",
   "contact": "Contáctanos",
   "about": "Nosotros",
@@ -9,6 +9,24 @@
   "home.startNow": "Empieza ahora",
   "home.h1": "Cuidamos su vida, su historia y su hogar, con un servicio tan único como ellos",
   "home.description": "Somos la opción de confianza para cientos de familias que buscan el mejor cuidado a domicio para sus seres queridos",
+  "caregivers": {
+    "h1": "Únete a CareMe, la plataforma que conecta a cuidadores con familias que necesitan tus servicios.",
+    "description": "CareMe te ofrece la oportunidad de encontrar clientes de manera rápida y sencilla, con todas las herramientas necesarias para realizar tu trabajo de manera eficaz. Únete a nosotros y haz la diferencia en la vida de quienes más lo necesitan.",
+    "startNow": "¡Comienza ahora!",
+    "benefitsTitle": "Beneficios de unirte a CareMe",
+    "benefit1": "Encuentra clientes de manera más rápida y sencilla, sin depender de plataformas tradicionales como Facebook.",
+    "benefit2": "Recibe acompañamiento en todo momento, con atención personalizada para resolver tus dudas y ayudarte a mejorar tu experiencia.",
+    "benefit3": "Disfruta de múltiples funcionalidades que mejoran tu servicio y facilitan tu trabajo, sin pagar por el servicio. ¡Solo una comisión baja del 10% por cada servicio!",
+    "testimonialsTitle": "Lo que dicen nuestros cuidadores",
+    "caregiver1": {
+      "name": "Ana María López",
+      "description": "Soy cuidadora profesional con más de 5 años de experiencia. Me encanta ver la felicidad de las personas que cuido y me siento parte importante de sus vidas."
+    },
+    "caregiver2": {
+      "name": "Carlos Pérez",
+      "description": "Con años de experiencia, he ayudado a muchas personas mayores a mejorar su calidad de vida, brindándoles compañía y cuidados especializados."
+    }
+  },
   "icu": {
     "pluralization": "n",
     "select": "{gender}"

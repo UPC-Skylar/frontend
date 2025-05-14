@@ -1,6 +1,6 @@
 {
   "home": "Home",
-  "caregivers": "Caregivers",
+  "caregiver": "Caregivers",
   "family": "Family",
   "contact": "Contact",
   "about": "About us",
@@ -12,6 +12,24 @@
   "caregivers.h1": "Caregivers",
   "caregivers.description": "description",
   "caregivers.startNow": "Start now",
+  "caregivers": {
+    "h1": "Join CareMe, the platform that connects caregivers with families in need of your services.",
+    "description": "CareMe offers you the opportunity to find clients quickly and easily, with all the necessary tools to perform your job effectively. Join us and make a difference in the lives of those who need it most.",
+    "startNow": "Start now!",
+    "benefitsTitle": "Benefits of joining CareMe",
+    "benefit1": "Find clients more quickly and easily, without relying on traditional platforms like Facebook.",
+    "benefit2": "Receive support at all times, with personalized attention to resolve any doubts and help you improve your experience.",
+    "benefit3": "Enjoy multiple features that improve your service and make your work easier, with no charges for the service. Only a low 10% commission per service!",
+    "testimonialsTitle": "What our caregivers are saying",
+    "caregiver1": {
+      "name": "Ana María López",
+      "description": "I am a professional caregiver with over 5 years of experience. I love seeing the happiness of the people I care for and I feel like an important part of their lives."
+    },
+    "caregiver2": {
+      "name": "Carlos Pérez",
+      "description": "With years of experience, I have helped many elderly people improve their quality of life, providing them with companionship and specialized care."
+    }
+  },
   "icu": {
     "pluralization": "n",
     "select": "{gender}"

@@ -1,18 +1,39 @@
-<p>caregivers works!</p>
 <div class="caregivers-container">
-
   <div class="caregivers-content">
+    <!-- Header Section -->
     <div class="caregivers-header">
-      <h1>{{'caregivers.h1' | translate}}</h1>
-      <p>
-        {{'caregivers.description' | translate}}
-      </p>
-      <button mat-raised-button color="primary" routerLink="/register">{{'caregivers.startNow' | translate}}</button>
+      <h1>{{ 'caregivers.h1' | translate }}</h1>
+      <p>{{ 'caregivers.description' | translate }}</p>
+      <button mat-raised-button color="primary" routerLink="/register" class="cta-button">{{ 'caregivers.startNow' | translate }}</button>
     </div>
 
+    <!-- Image Section -->
     <div class="caregivers-image">
-      <img src="assets/images/cuidadores1.jpg" alt="Caregiver image 1" />
+      <img src="assets/images/cuidador.png" alt="Caregiver image" />
     </div>
   </div>
 
+  <!-- Benefits Section -->
+  <div class="caregivers-benefits">
+    <h2>{{ 'caregivers.benefitsTitle' | translate }}</h2>
+    <ul>
+      <li>{{ 'caregivers.benefit1' | translate }}</li>
+      <li>{{ 'caregivers.benefit2' | translate }}</li>
+      <li>{{ 'caregivers.benefit3' | translate }}</li>
+    </ul>
+  </div>
+
+  <!-- Testimonials Section -->
+  <div class="testimonials">
+    <h2>{{ 'caregivers.testimonialsTitle' | translate }}</h2>
+    <div class="testimonial-cards">
+      <div *ngFor="let caregiver of caregiversList" class="testimonial-card">
+        <img [src]="caregiver.image" alt="{{caregiver.name}}" class="testimonial-img" />
+        <div class="testimonial-info">
+          <h3>{{ caregiver.name }}</h3>
+          <p>{{ caregiver.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
