@@ -1,0 +1,12 @@
+{
+  "home": "Home",
+  "caregivers": "Caregivers",
+  "family": "Family",
+  "contactus": "Hi. How are you?",
+  "about": "A",
+  "support": "Support",
+  "icu": {
+    "pluralization": "n",
+    "select": "{gender}"
+  }
+}

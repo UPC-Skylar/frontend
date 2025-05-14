@@ -6,10 +6,12 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-layout',
-  imports: [MatToolbarModule, MatButtonModule, MatIconModule, MatSidenavModule, MatListModule, MatDividerModule],
+  imports: [MatToolbarModule, MatButtonModule, MatIconModule, MatSidenavModule, MatListModule, MatDividerModule, MatButtonToggleModule, TranslateModule],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })

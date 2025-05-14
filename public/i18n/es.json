@@ -1,0 +1,12 @@
+{
+  "home": "Home",
+  "caregivers": "Cuidadores",
+  "family": "Familia",
+  "contactus": "Contáctanos",
+  "about": "Nosotros",
+  "support": "Ayuda",
+  "icu": {
+    "pluralization": "n",
+    "select": "{gender}"
+  }
+}

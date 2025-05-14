@@ -2,7 +2,7 @@
 
   <mat-toolbar class="example-toolbar">
     <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
-    <h1 class="example-app-name">Responsive App</h1>
+    <h1 class="example-app-name">CareMe</h1>
     <span class="example-spacer"></span>
 
     <section>
@@ -18,14 +18,11 @@
 
     <span class="example-spacer"></span>
 
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-      <mat-icon>share</mat-icon>
-    </button>
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+      <mat-button-toggle value="en">EN</mat-button-toggle>
+      <mat-button-toggle value="es">ES</mat-button-toggle>
+    </mat-button-toggle-group>
   </mat-toolbar>
-
-
-
-
 
 
   <mat-sidenav-container class="example-sidenav-container"
