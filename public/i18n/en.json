@@ -2,7 +2,7 @@
   "home": "Home",
   "caregiver": "Caregivers",
   "family-section": "Family",
-  "contact": "Contact",
+  "contact-section": "Contact",
   "about": "About us",
   "support": "Support",
   "home.areYouACaregiver": "Are you a caregiver?",
@@ -49,6 +49,15 @@
     "testimonial1Description": "Thanks to CareMe, I was able to find the best caregiver for my mother. The experience was wonderful and reliable.",
     "testimonial2Name": "Carlos López",
     "testimonial2Description": "I love the platform, the caregivers are very professional and always available for any questions."
+  },
+  "contact": {
+    "h1": "Contact Us",
+    "description": "Do you have any questions or need assistance? We are here to help you. Fill out the form and we will get in touch with you as soon as possible.",
+    "name": "First Name",
+    "lastname": "Last Name",
+    "email": "Email Address",
+    "message": "Message",
+    "submit": "Submit"
   },
   "icu": {
     "pluralization": "n",

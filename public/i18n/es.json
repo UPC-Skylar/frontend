@@ -2,7 +2,7 @@
   "home": "Inicio",
   "caregiver": "Cuidadores",
   "family-section": "Familia",
-  "contact": "Contáctanos",
+  "contact-section": "Contáctanos",
   "about": "Nosotros",
   "support": "Ayuda",
   "home.areYouACaregiver": "¿Eres un cuidador?",
@@ -46,6 +46,15 @@
     "testimonial1Description": "Gracias a CareMe, pude encontrar al mejor cuidador para mi madre. La experiencia fue maravillosa y confiable.",
     "testimonial2Name": "Carlos López",
     "testimonial2Description": "Me encanta la plataforma, los cuidadores son muy profesionales y siempre están disponibles para cualquier duda."
+  },
+  "contact": {
+    "h1": "Contáctanos",
+    "description": "¿Tienes alguna pregunta o necesitas ayuda? Estamos aquí para asistirte. Completa el formulario y nos pondremos en contacto contigo lo antes posible.",
+    "name": "Nombre",
+    "lastname": "Apellido",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "submit": "Enviar"
   },
   "icu": {
     "pluralization": "n",
