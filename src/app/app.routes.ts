@@ -1,19 +1,41 @@
 import { Routes } from '@angular/router';
-import {HomeComponent} from './core/components/home/home.component';
-import {CaregiversComponent} from './domains/products/components/caregivers/caregivers.component';
-import {FamilyComponent} from './domains/products/components/family/family.component';
-import {ContactComponent} from './core/components/contact/contact.component';
-import {AboutComponent} from './core/components/about/about.component';
-import {SupportComponent} from './core/components/support/support.component';
-import {LoginComponent} from './core/components/login/login.component';
-
 
 export const routes: Routes = [
-  {path: 'home-component', component: HomeComponent},
-  {path: 'caregivers-component', component: CaregiversComponent},
-  {path: 'family-component', component: FamilyComponent},
-  {path: 'contact-component', component: ContactComponent},
-  {path: 'about-component', component: AboutComponent},
-  {path: 'support-component', component: SupportComponent},
-  {path: 'login-component', component: LoginComponent},
+  {
+    path: '',
+    redirectTo: '/dashboard',
+    pathMatch: 'full'
+  },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./dashboard/dashboard.routes').then(m => m.dashboardRoutes)
+  },
+  {
+    path: 'caregivers',
+    loadChildren: () => import('./caregiver-management/caregiver-management.routes').then(m => m.caregiverRoutes)
+  },
+  {
+    path: 'profile',
+    loadChildren: () => import('./profile/profile.routes').then(m => m.profileRoutes)
+  },
+  {
+    path: 'subscription',
+    loadChildren: () => import('./subscription/subscription.routes').then(m => m.subscriptionRoutes)
+  },
+  {
+    path: 'favorites',
+    loadChildren: () => import('./favorites/favorites.routes').then(m => m.favoritesRoutes)
+  },
+  {
+    path: 'history',
+    loadChildren: () => import('./history/history.routes').then(m => m.historyRoutes)
+  },
+  {
+    path: 'support',
+    loadChildren: () => import('./support/support.routes').then(m => m.supportRoutes)
+  },
+  {
+    path: '**',
+    redirectTo: '/dashboard'
+  }
 ];

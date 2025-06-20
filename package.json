@@ -1,5 +1,5 @@
 {
-  "name": "careme",
+  "name": "frontend",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -10,20 +10,24 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/cdk": "^19.2.15",
+    "@angular/cdk": "^19.2.18",
     "@angular/common": "^19.2.0",
     "@angular/compiler": "^19.2.0",
     "@angular/core": "^19.2.0",
     "@angular/forms": "^19.2.0",
-    "@angular/material": "^19.2.15",
+    "@angular/material": "^19.2.18",
     "@angular/platform-browser": "^19.2.0",
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/router": "^19.2.0",
-    "@colsen1991/ngx-translate-extract-marker": "^3.0.1",
     "@ngx-translate/core": "^16.0.4",
     "@ngx-translate/http-loader": "^16.0.1",
+    "@types/crypto-js": "^4.2.2",
+    "@types/uuid": "^10.0.0",
+    "crypto-js": "^4.2.0",
+    "moment": "^2.30.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "uuid": "^11.1.0",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
